@@ -1,0 +1,9 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Checklists collection allows read/write access for easy multi-user sync
+    match /checklists/{userId} {
+      allow read, write: if true;
+    }
+  }
+}

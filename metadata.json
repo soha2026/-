@@ -1,0 +1,6 @@
+{
+  "name": "북로테이션",
+  "description": "6인의 한 달 주기 도서 로테이션 프로그램 대시보드 및 가이드",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
